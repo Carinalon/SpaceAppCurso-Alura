@@ -8,7 +8,7 @@
 body {
     color: var(--white);
     background:var(--main-color);
-    background: linear-gradient(90deg, rgba(4,24,51,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(4,24,51,1) 0%, rgb(35, 104, 58) 35%, rgba(0,212,255,1) 100%);
     
 }
 
@@ -90,21 +90,24 @@ body {
     flex-direction: column;
     width: 80%;
     margin: 1% 2%;
+    
 }
 
 
  .banner__image{
     margin: 0% 1% 0% 0%;  
+    border-radius: 50%;
 } 
  
 
 .gallery__text{
     margin-top: 5%;
     margin-bottom: 2%;
-    margin-left: 1%;
+    margin-left: 50%;
     font-size: 18px;
     font-weight: 500;
     color: var(--secondary-color);
+    background-color: #001634;
 }
 
 
@@ -188,7 +191,7 @@ body {
 
 .footer__text{
     margin-right: 3%;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
 
 }
